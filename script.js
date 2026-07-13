@@ -7,7 +7,7 @@ function addStudent() {
         let li = document.createElement("li");
 
         li.innerHTML =
-        name + ' <button onclick="this.parentElement.remove(); updateCount()">Delete</button>';
+        name + ' <button onclick="this.parentElement.remove(); updateCount()">Delete A Student</button>';
 
         document.getElementById("studentList").appendChild(li);
 
